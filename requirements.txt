@@ -8,5 +8,6 @@ accelerate==0.34.2
 safetensors
 huggingface_hub>=0.23.2,<1.0
 gradio==4.44.1
+starlette<1.0
 pydantic==2.10.6
 matplotlib
