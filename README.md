@@ -88,3 +88,16 @@ Limitacoes: o dataset e pequeno, a cobertura de palavras-chave e uma metrica sim
 
 ## 8. Frontend
 `app.py` abre uma interface Gradio com campo de prompt, escolha entre modelo base e ajustado, sliders de temperatura, top_p, maximo de tokens e penalidade de repeticao, alem do desempenho em tokens/s.
+
+## 9. Evidencias
+
+GPU utilizada
+
+<img width="1905" height="1027" alt="image" src="https://github.com/user-attachments/assets/ba21eab4-166f-4608-aa06-540e3e861bec" />
+
+
+Modelo rodando com modelo da GPU, Código fonte e front-end exbidos
+
+<img width="1915" height="1025" alt="image" src="https://github.com/user-attachments/assets/6f203432-9d23-437e-9001-4c6cedb77f05" />
+
+
