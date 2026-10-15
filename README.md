@@ -18,11 +18,11 @@ no formato de um tutor.
 ## 2. Modelo e tecnica
 | Item | Escolha |
 |---|---|
-| Modelo base | `Qwen/Qwen2.5-0.5B-Instruct` (494 M de parametros, cabe nos 8 GB da RX 6600) |
+| Modelo base | `Qwen/Qwen2.5-0.5B-Instruct` |
 | Tecnica | Fine-tuning **LoRA** (PEFT) nas camadas de atencao `q_proj, k_proj, v_proj, o_proj` |
 | Dados | `data/dataset.jsonl` - 67 pares pergunta/resposta (gerados por `criar_dataset.py`) |
 | Precisao | float32 (mais estavel no DirectML) |
-| Loss | so nos tokens da resposta (o prompt e mascarado) |
+| Loss | so nos tokens da resposta |
 
 Por que LoRA: treina so ~0,5% dos parametros, usa pouca memoria de GPU e salva um adaptador pequeno (alguns MB).
 
@@ -38,7 +38,7 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 
-python verificar_gpu.py        # confirma a GPU (tire o print aqui, no terminal do VSCode)
+python verificar_gpu.py        # confirma a GPU
 python criar_dataset.py        # gera data/dataset.jsonl e data/perguntas_teste.json
 
 python train.py                # treino unico com os parametros padrao
@@ -88,13 +88,3 @@ Limitacoes: o dataset e pequeno, a cobertura de palavras-chave e uma metrica sim
 
 ## 9. Frontend
 `app.py` abre uma interface Gradio com campo de prompt, escolha entre modelo base e ajustado, sliders de temperatura, top_p, maximo de tokens e penalidade de repeticao, alem do desempenho em tokens/s.
-
-## 10. Publicar no GitHub
-```powershell
-git init
-git add .
-git commit -m "CP2/CP3: tutor de Python com LoRA em GPU AMD"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-git push -u origin main
-```
