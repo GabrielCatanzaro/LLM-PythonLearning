@@ -86,5 +86,5 @@ Na geracao tambem se variam `temperature` e `top_p` (ver secao 7).
 
 Limitacoes: o dataset e pequeno, a cobertura de palavras-chave e uma metrica simples e o modelo de 0,5 B pode errar em perguntas fora do que viu.
 
-## 9. Frontend
+## 8. Frontend
 `app.py` abre uma interface Gradio com campo de prompt, escolha entre modelo base e ajustado, sliders de temperatura, top_p, maximo de tokens e penalidade de repeticao, alem do desempenho em tokens/s.
