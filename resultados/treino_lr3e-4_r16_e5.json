@@ -1,0 +1,20 @@
+{
+  "nome": "lr3e-4_r16_e5",
+  "modelo": "Qwen/Qwen2.5-0.5B-Instruct",
+  "backend": "directml",
+  "gpu": "AMD Radeon RX 6600\u0000",
+  "epocas": 5,
+  "lr": 0.0003,
+  "rank": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "batch": 2,
+  "acum": 2,
+  "n_treino": 61,
+  "n_val": 6,
+  "passos": 80,
+  "loss_treino": 0.4289,
+  "loss_val": 1.3068,
+  "tempo_s": 139.3,
+  "saida": "modelos\\lr3e-4_r16_e5"
+}

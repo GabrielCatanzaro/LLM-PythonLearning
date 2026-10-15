@@ -1,0 +1,12 @@
+# Python 3.10 recomendado (versao usada no guia da Microsoft para torch-directml)
+# O torch-directml instala sozinho a versao do PyTorch que ele exige.
+torch-directml
+numpy<2
+transformers==4.44.2
+peft==0.12.0
+accelerate==0.34.2
+safetensors
+huggingface_hub>=0.23.2,<1.0
+gradio==4.44.1
+pydantic==2.10.6
+matplotlib

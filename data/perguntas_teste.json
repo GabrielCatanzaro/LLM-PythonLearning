@@ -1,0 +1,120 @@
+[
+  {
+    "pergunta": "Como inverter uma lista em Python?",
+    "palavras_chave": [
+      "reverse",
+      "[::-1]",
+      "reversed"
+    ]
+  },
+  {
+    "pergunta": "Qual e a diferenca entre lista e tupla?",
+    "palavras_chave": [
+      "mutavel",
+      "imutavel",
+      "tupla",
+      "lista"
+    ]
+  },
+  {
+    "pergunta": "Como ler o conteudo de um arquivo de texto?",
+    "palavras_chave": [
+      "open",
+      "with",
+      "read"
+    ]
+  },
+  {
+    "pergunta": "O que o comando break faz?",
+    "palavras_chave": [
+      "laco",
+      "interrompe",
+      "for",
+      "while"
+    ]
+  },
+  {
+    "pergunta": "Como remover itens duplicados de uma lista?",
+    "palavras_chave": [
+      "set",
+      "lista"
+    ]
+  },
+  {
+    "pergunta": "O que e um dicionario em Python?",
+    "palavras_chave": [
+      "chave",
+      "valor",
+      "{"
+    ]
+  },
+  {
+    "pergunta": "Como converter um texto em numero inteiro?",
+    "palavras_chave": [
+      "int("
+    ]
+  },
+  {
+    "pergunta": "Para que serve o self em uma classe?",
+    "palavras_chave": [
+      "objeto",
+      "instancia",
+      "metodo",
+      "self"
+    ]
+  },
+  {
+    "pergunta": "Como tratar o erro de divisao por zero?",
+    "palavras_chave": [
+      "try",
+      "except",
+      "ZeroDivisionError"
+    ]
+  },
+  {
+    "pergunta": "Como percorrer uma lista usando o indice e o valor?",
+    "palavras_chave": [
+      "enumerate",
+      "for"
+    ]
+  },
+  {
+    "pergunta": "O que e list comprehension?",
+    "palavras_chave": [
+      "lista",
+      "for",
+      "["
+    ]
+  },
+  {
+    "pergunta": "Como instalar uma biblioteca no Python?",
+    "palavras_chave": [
+      "pip",
+      "install"
+    ]
+  },
+  {
+    "pergunta": "Como ordenar uma lista?",
+    "palavras_chave": [
+      "sort",
+      "sorted"
+    ]
+  },
+  {
+    "pergunta": "Como juntar duas strings?",
+    "palavras_chave": [
+      "+",
+      "join",
+      "f\""
+    ]
+  },
+  {
+    "pergunta": "O que e uma funcao em Python?",
+    "palavras_chave": [
+      "def",
+      "bloco",
+      "codigo",
+      "chamar"
+    ]
+  }
+]

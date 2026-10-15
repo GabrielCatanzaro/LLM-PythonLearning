@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+.vscode/
+*.log
+# checkpoints grandes (o adaptador LoRA final e pequeno e pode ir para o GitHub)
+modelos/*/checkpoint*
